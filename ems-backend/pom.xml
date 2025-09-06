@@ -17,9 +17,10 @@
     <name>ems</name>
     <description>EasyEMS</description>
 
-    <properties>
-        <java.version>23</java.version>
-    </properties>
+<properties>
+    <java.version>17</java.version>
+</properties>
+
 
     <dependencies>
         <!-- MongoDB -->
