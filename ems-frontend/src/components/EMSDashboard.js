@@ -19,7 +19,7 @@ const Dashboard = () => {
     newHiresThisMonth: 7 // Will be calculated from real data
   };
 
-  const EMPLOYEES_API_URL = 'http://localhost:8080/api/employees';
+  const EMPLOYEES_API_URL = 'https://easyems-production.up.railway.app/api/employees';
 
   const fetchEmployees = async () => {
     setLoading(true);

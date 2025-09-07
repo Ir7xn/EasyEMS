@@ -29,7 +29,7 @@ const EmployeeList = () => {
   const [employees, setEmployees] = useState([]);
 
   // API Base URL - adjust this to match your Spring Boot server
-  const API_BASE_URL = 'http://localhost:8080/api/employees';
+  const API_BASE_URL = 'https://easyems-production.up.railway.app/api/employees';
 
   const departments = ['Engineering', 'Marketing', 'Finance', 'HR', 'Sales'];
   const departmentOptions = ['All Departments', ...departments];

@@ -51,7 +51,7 @@ const EMSAuthPage = () => {
     if (isLogin) {
       // LOGIN
       try {
-        const response = await fetch("http://localhost:8080/api/auth/login", {
+        const response = await fetch("https://easyems-production.up.railway.app/api/auth/login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -82,7 +82,7 @@ const EMSAuthPage = () => {
   }
 
   try {
-    const response = await fetch("http://localhost:8080/api/auth/register", {
+    const response = await fetch("https://easyems-production.up.railway.app/api/auth/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

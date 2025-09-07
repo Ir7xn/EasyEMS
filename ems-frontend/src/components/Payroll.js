@@ -17,7 +17,7 @@ const PayrollTab = () => {
   });
 
   const [payrollRecords, setPayrollRecords] = useState([]);
-  const API_BASE_URL = 'http://localhost:8080/api/payroll';
+  const API_BASE_URL = 'https://easyems-production.up.railway.app/api/payroll';
   const statuses = ['All Status', 'Draft', 'Calculated', 'Approved', 'Processed', 'Paid'];
 
   useEffect(() => {

@@ -60,7 +60,7 @@ const AttendanceManagement = () => {
   const fetchEmployees = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:8080/api/employees');
+      const response = await fetch('https://easyems-production.up.railway.app/api/employees');
       if (!response.ok) throw new Error('Failed to fetch employees');
       const data = await response.json();
       
