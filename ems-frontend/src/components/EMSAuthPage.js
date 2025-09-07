@@ -523,20 +523,6 @@ const EMSAuthPage = () => {
                     </button>
                   </div>
                 </div>
-
-                <div className="flex items-center justify-between">
-                  <label className="flex items-center cursor-pointer">
-                    <input type="checkbox" className="mr-2" />
-                    <span className="text-sm text-gray-600">Remember me</span>
-                  </label>
-                  <button 
-                    type="button"
-                    className="text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors"
-                    onClick={() => alert('Forgot password functionality would be implemented here')}
-                  >
-                    Forgot password?
-                  </button>
-                </div>
               </>
             )}
 
