@@ -30,7 +30,7 @@ Easy EMS is a basic **Employee Management System** with multiple CRUD operations
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/Ir7xn/EasyEMS.git
 Open two terminals.
 
 Frontend:
